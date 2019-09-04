@@ -1,0 +1,36 @@
+body {
+    background: aqua;
+}
+
+.note {
+    padding-top: 20px;
+    background: #ffffff;
+    min-height: 120px;
+    min-width: 240px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #34b399;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.timestamp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    background: #34b399;
+    width: 100%;
+}
+
+.note textarea {
+    padding: 3px 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    min-width: 220px;
+    background: transparent;
+    border: none;
+}
+.closebutton {
+
+}

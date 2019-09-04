@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="note.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="newNoteButton" onclick="newNote()">New Note</button>
+<script>
+    document.getElementById("newNoteButton").disabled = !db;
+</script>
+</body>
+</html>
